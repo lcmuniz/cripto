@@ -40,7 +40,7 @@ function App() {
 
   return (
     <div className="container">
-      <p class="prompt">Adivinhe o número que estou pensando?</p>
+      <p class="prompt">Adivinhe o número que eu estou pensando?</p>
       <div className="form">
         <input type="text" ref={guessInput} />
         <button ref={guessButton} onClick={testGuess}>Enviar</button>
