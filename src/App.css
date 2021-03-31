@@ -40,6 +40,9 @@ span {
   margin-top: 10px;
   text-decoration: none;
   color: black;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 .invisible {

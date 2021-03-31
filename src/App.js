@@ -46,7 +46,7 @@ function App() {
         <button ref={guessButton} onClick={testGuess}>Enviar</button>
       </div>
       <span>{message}</span>
-      <a ref={restartLink} className="restart invisible" href="#" onClick={restart}>Clique aqui para reiniciar.</a>
+      <button ref={restartLink} className="restart invisible" onClick={restart}>Clique aqui para reiniciar.</button>
       <p>Número de tentativas: {atempts}</p>
     </div>
   );
